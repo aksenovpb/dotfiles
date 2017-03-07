@@ -17,6 +17,7 @@ Plug 'jlanzarotta/bufexplorer'
 Plug 'scrooloose/syntastic'
 Plug 'majutsushi/tagbar'
 Plug 'mattn/emmet-vim'
+Plug 'digitaltoad/vim-pug'
 
 call plug#end()
 
