@@ -94,6 +94,7 @@ let NERDTreeIgnore = ['\.pyc$']
 let NERDTreeQuitOnOpen=1
 
 let g:airline#extensions#tabline#enabled = 1
+set laststatus=2
 
 let g:virtualenv_directory = $VIRTUAL_ENV
 let g:virtualenv_auto_activate = 1
