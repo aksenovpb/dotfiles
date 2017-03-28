@@ -86,7 +86,11 @@ map <Leader>a :bnext<Return>
 map <Leader>s :bprev<Return>
 " " Close buffer
 map <Leader>x :bd<Return>
-
+" Switch splits buffers
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 
 nmap <C-\> :NERDTreeFind<CR>
 nmap <silent> <leader><leader> :NERDTreeToggle<CR>
@@ -100,3 +104,7 @@ let g:virtualenv_directory = $VIRTUAL_ENV
 let g:virtualenv_auto_activate = 1
 
 nnoremap <silent> <F9> :TagbarToggle<CR>
+
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%81v.\+/
+set colorcolumn=81
