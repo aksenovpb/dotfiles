@@ -105,6 +105,6 @@ let g:virtualenv_auto_activate = 1
 
 nnoremap <silent> <F9> :TagbarToggle<CR>
 
-highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+highlight OverLength ctermbg=52
 match OverLength /\%81v.\+/
-set colorcolumn=81
+set colorcolumn=80
